@@ -1,27 +1,18 @@
 # "Hello World" App Evolution
 This repository will take you through the evolution of a basic hello-world application that incorporates React for the frontend (`/web`) and Express.js for the API (`/api`). Initially, the application follows a conventional React and Express.js architecture, but gradually evolves into an independent component architecture.
 
-As you progress through the different stages of the transition, you'll find corresponding branches with the prefix `stage`.
+As you progress through the different stages of the transition, you'll find the code in corresponding branch in this repository.
 
-## Stage 1: Simple App
-View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage1-simple_app)
+## Pre-Bit
+View Code: [branch](https://github.com/teambit-community/hello-world/tree/pre-bit)
 
-Run React App: Go to `/web` directory and execute `npm run start` command. 
-Run Express.js API: Go to `/api` directory and execute `npm run start` command.
+This branch contains a classical React frontend and an Express.js API. They are deployed to Netlify and to a Virtual Machine using SSH. You can find the deployment configuration in:
 
-## Stage 2: Consuming the API
-View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage2-consuming_api)
+1. `netlify.toml` - To deploy the frontend into Netlify.
+2. `.github/workflows/main.yml` - To deploy the API to a virtual machine via SSH.
 
-Run React App: Go to `/web` directory and execute `npm run start` command. 
-Run Express.js API: Go to `/api` directory and execute `npm run start` command.
+**Note:** Make sure that you properly set up the environment variables for both the frontend and API.
 
-## Stage 3: Build & Deploy
-View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage3-build_and_deploy)
-
-In this stage, you can see two new files at the root. 
-
-1. `netlify.toml` - Provides the configuration to deploy the frontend into Netlify
-2. `.github/workflows/main.yml` - Provides the configuration to deploy the API to a virtual machine by connecting via SSH.
-
+### Running Locally
 Run React App: Go to `/web` directory and execute `npm run start` command. 
 Run Express.js API: Go to `/api` directory and execute `npm run start` command.
