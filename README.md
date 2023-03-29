@@ -1,17 +1,19 @@
-# "Hello World" App Evolution to Independent Component Architecture
-This repository shows the evolution of a simple hello-world app that uses React for frontend (`/web`) and Express.js (`/api`) for the API. First it is started two classical React and Express.js apps and evolved into independent component architecture. In each branch having the prefix `stage`, you can find different steps in the transition.
+# "Hello World" App Evolution
+"This repository will take you through the evolution of a basic hello-world application that incorporates React for the frontend (`/web`) and Express.js for the API (`/api`). Initially, the application follows a conventional React and Express.js architecture, but gradually evolves into an independent component architecture.
+
+As you progress through the different stages of the transition, you'll find corresponding branches with the prefix `stage`."
 
 ## Stage 1: Simple App
-Branch: [view](https://github.com/teambit-community/hello-world/tree/stage1-simple_app)
+View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage1-simple_app)
 
 Run React App: Go to `/web` directory and execute `npm run start` command. 
 Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
 ## Stage 2: Consuming the API
-Branch: [view](https://github.com/teambit-community/hello-world/tree/stage2-consuming_api)
+View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage2-consuming_api)
 
 Run React App: Go to `/web` directory and execute `npm run start` command. 
 Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
 ## Stage 3: Build & Deploy
-Branch: [view](https://github.com/teambit-community/hello-world/tree/stage3-build_and_deploy)
+View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage3-build_and_deploy)
