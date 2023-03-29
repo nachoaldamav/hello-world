@@ -17,3 +17,12 @@ Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
 ## Stage 3: Build & Deploy
 View Code: [branch](https://github.com/teambit-community/hello-world/tree/stage3-build_and_deploy)
+
+In this stage, you can see two new files at the root. 
+
+1. `netlify.toml` - Provides the configuration to deploy the frontend into Netlify
+2. `.github/workflows/deploy-via-ssh.yaml` - Provides the configuration to deploy the API to a virtual machine by connecting via SSH.
+
+
+Run React App: Go to `/web` directory and execute `npm run start` command. 
+Run Express.js API: Go to `/api` directory and execute `npm run start` command.
