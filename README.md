@@ -8,9 +8,10 @@ Run React App: Go to `/web` directory and execute `npm run start` command.
 Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
 ## Stage 2: Consuming the API
-Branch: [view](https://github.com/teambit-community/hello-world/tree/stage2-consuming-api)
+Branch: [view](https://github.com/teambit-community/hello-world/tree/stage2-consuming_api)
 
 Run React App: Go to `/web` directory and execute `npm run start` command. 
 Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
-## Stage 3: Initializing Bit
+## Stage 3: Build & Deploy
+Branch: [view](https://github.com/teambit-community/hello-world/tree/stage3-build_and_deploy)
