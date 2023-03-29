@@ -1,12 +1,16 @@
-# Creating a "Hello World" App
-You can find a simple hello-world app using React for the frontend (`/web`) and Express.js (`/api`)
+# "Hello World" App Evolution to Component DrDr
+This repository shows the evolution of a simple hello-world app that uses React for frontend (`/web`) and Express.js (`/api`) for the API. First it is started two classical React and Express.js apps and evolved into independent component architecture. In each branch having the prefix `stage`, you can find different steps in the transition.
 
-## Running React App
-To run the React app, go to `/web` directory and execute the followign command
+## Stage 1: Simple App
+Branch: [view](https://github.com/teambit-community/hello-world/tree/stage1-simple_app)
 
-`npm run start`
+Run React App: Go to `/web` directory and execute `npm run start` command. 
+Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 
-## Running Express.js API
-To run the Express.js API, go to `/api` directory and execute the followign command
+## Stage 2: Consuming the API
+Branch: [view](https://github.com/teambit-community/hello-world/tree/stage2-consuming-api)
 
-`npm run start`
+Run React App: Go to `/web` directory and execute `npm run start` command. 
+Run Express.js API: Go to `/api` directory and execute `npm run start` command.
+
+## Stage 3: Initializing Bit
