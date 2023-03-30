@@ -8,7 +8,7 @@ View Code: [branch](https://github.com/teambit-community/hello-world/tree/pre-bi
 
 This branch contains a classical React frontend and an Express.js API. They are deployed to Netlify and to a Virtual Machine using SSH. You can find the deployment configuration in:
 
-1. `netlify.toml` - To deploy the frontend into Netlify.
+1. `netlify.toml` - To deploy the frontend into Netlify. **Note:** Modify the API URL with your own one.
 2. `.github/workflows/main.yml` - To deploy the API to a virtual machine via SSH.
 
 **Note:** Make sure that you properly set up the environment variables for both the frontend and API.
