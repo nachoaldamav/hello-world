@@ -45,8 +45,9 @@ First at the project root directory, `bit init` command is used and workspace.js
 
 The `web` project is restructured to:
 1. The `hooks` and `ui` components are moved back to `web/` directory.
-2. The `web/src` directory is renamed to `app` which contains the app component.
+2. The `web/src` directory is renamed to `app` which contains the React app component.
 
 The `api` project is restructured to:
-1. 
+1. The `routes` components are moved back to `api/` directory.
+2. The `api/src` directory is renamed to `app` which contains the Node app component.
 
