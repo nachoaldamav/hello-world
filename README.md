@@ -11,7 +11,10 @@ This branch contains a classical React frontend and an Express.js API. They are 
 ```
 - web
   - src
-    - app
+    - app.tsx
+    - index.tsx
+    - pages
+      - landing-page
     - hooks
       - use-hello-world
     - ui
@@ -19,8 +22,9 @@ This branch contains a classical React frontend and an Express.js API. They are 
       - heading
 - api
   - src
-    - index
-  - routes
+    - app.ts
+    - index.ts
+    - routes
       - hello
 - .github
   - workflows
@@ -41,13 +45,31 @@ First at the project root directory, `bit init` command is used and workspace.js
 1. `greeters` for the workspace.
 2. `hello-world` for the default scope.
 
-## Restructuring the `Web` project
+## Extracting the Components
 
-The `web` project is restructured to:
-1. The `hooks` and `ui` components are moved back to `web/` directory.
-2. The `web/src` directory is renamed to `app` which contains the React app component.
+### `Web` project
 
-The `api` project is restructured to:
-1. The `routes` components are moved back to `api/` directory.
-2. The `api/src` directory is renamed to `app` which contains the Node app component.
+The components in `web` project are moved into two different scopes `design` and `hello-world`.
+
+```
+greeters.design/button
+greeters.design/paragraph
+greeters.hello-world/app
+greeters.hello-world/hello-world-app
+greeters.hello-world/hooks/use-hello-world
+greeters.hello-world/pages/hello-world-page
+```
+
+### `Api` project
+The components in `api` project are also moved into the scope `hello-world`.
+
+```
+greeters.hello-world/api
+greeters.hello-world/api-routes/hello
+```
+
+**Note**: After doing this, you will get issues with the local dependency paths. Let's ignore it until we `add` all the components into `bit`.
+
+## Making them Bit Components
+
 
