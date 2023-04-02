@@ -6,12 +6,26 @@ As you progress through the different stages of the transition, you'll find the 
 ## Pre-Bit
 View Code: [branch](https://github.com/teambit-community/hello-world/tree/pre-bit)
 
-This branch contains a classical React frontend and an Express.js API. They are deployed to Netlify and to a Virtual Machine using SSH. You can find the deployment configuration in:
+This branch contains a classical React frontend and an Express.js API. They are deployed to Netlify and to a Virtual Machine using SSH.
 
-1. `netlify.toml` - To deploy the frontend into Netlify. **Note:** Modify the API URL with your own one.
-2. `.github/workflows/main.yml` - To deploy the API to a virtual machine via SSH.
-
-**Note:** Make sure that you properly set up the environment variables for both the frontend and API.
+```
+- web
+  - src
+    - app
+    - hooks
+      - use-hello-world
+    - ui
+      - button
+      - heading
+- api
+  - src
+    - index
+- .github
+  - workflows
+    - main.yml
+- netlify.toml
+- _redirects
+```
 
 ### Running Locally
 Run React App: Go to `/web` directory and execute `npm run start` command. 
