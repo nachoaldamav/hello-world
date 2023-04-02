@@ -20,6 +20,8 @@ This branch contains a classical React frontend and an Express.js API. They are 
 - api
   - src
     - index
+  - routes
+      - hello
 - .github
   - workflows
     - main.yml
@@ -34,4 +36,17 @@ Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 ## Bit-Init
 **Example:** [Code](https://github.com/teambit-community/hello-world/tree/bit-init)
 
+## Initializing Bit Workspace
+First at the project root directory, `bit init` command is used and workspace.json was updated to use:
+1. `greeters` for the workspace.
+2. `hello-world` for the default scope.
+
+## Restructuring the `Web` project
+
+The `web` project is restructured to:
+1. The `hooks` and `ui` components are moved back to `web/` directory.
+2. The `web/src` directory is renamed to `app` which contains the app component.
+
+The `api` project is restructured to:
+1. 
 
