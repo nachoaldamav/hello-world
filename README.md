@@ -72,4 +72,11 @@ greeters.hello-world/api-routes/hello
 
 ## Making them Bit Components
 
+### Creating the `React Env`
+Converting components to Bit is straight forward, first let's start by creating a `React Env`, which we use to build, develop and test these components. Here, `React Env` is also a component, so we can create a new scope `development` to include it by running `bit create react-env envs/react-env --scope development --aspect teambit.react/react-env`
+
+### Creating the `Node Env`
+Similarly let's create a Node Env for the express application by executing `bit create node-env envs/node-env --scope development --aspect teambit.node/node-env`
+
+
 
