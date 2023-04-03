@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "development"
+    "defaultScope": "hello-world"
   },
   /**
    * main configuration for component dependency resolution.

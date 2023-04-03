@@ -32,5 +32,19 @@
             }
         }
     },
+    "ui/button": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hello-world",
+        "mainFile": "index.ts",
+        "rootDir": "web/src/ui/button"
+    },
+    "ui/heading": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hello-world",
+        "mainFile": "index.ts",
+        "rootDir": "web/src/ui/heading"
+    },
     "$schema-version": "15.0.0"
 }
