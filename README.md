@@ -43,7 +43,15 @@ Run Express.js API: Go to `/api` directory and execute `npm run start` command.
 ## Initializing Bit Workspace
 First at the project root directory, `bit init` command is used and workspace.json was updated to use:
 1. `greeters` for the workspace.
-2. `hello-world` for the default scope.
+2. `development` for the default scope.
+
+Now, let's create the development environments for both React and Node which we use to build, develop and test Bit components. The Envs are also tracked as components in Bit so that you can share them with your development team.
+
+### Creating the `React Env`
+First let's start by creating a `React Env` by running `bit create react-env envs/react-env --aspect teambit.react/react-env` command.
+
+### Creating the `Node Env`
+Similarly let's create a Node Env for the express components by executing `bit create node-env envs/node-env --aspect teambit.harmony/node` command.
 
 ## Extracting the Components
 
@@ -72,11 +80,6 @@ greeters.hello-world/api-routes/hello
 
 ## Making them Bit Components
 
-### Creating the `React Env`
-Converting components to Bit is straight forward, first let's start by creating a `React Env`, which we use to build, develop and test these components. Here, `React Env` is also a component, so we can create a new scope `development` to include it by running `bit create react-env envs/react-env --scope development --aspect teambit.react/react-env`
-
-### Creating the `Node Env`
-Similarly let's create a Node Env for the express application by executing `bit create node-env envs/node-env --scope development --aspect teambit.node/node-env`
 
 
 
