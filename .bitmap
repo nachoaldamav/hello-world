@@ -32,20 +32,6 @@
             }
         }
     },
-    "hooks/use-hello-world": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "hello-world",
-        "mainFile": "index.ts",
-        "rootDir": "web/src/hooks/use-hello-world"
-    },
-    "providers/api-provider": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "hello-world",
-        "mainFile": "index.ts",
-        "rootDir": "web/src/providers/api-provider"
-    },
     "ui/button": {
         "scope": "",
         "version": "",
