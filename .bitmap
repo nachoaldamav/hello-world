@@ -26,14 +26,26 @@
         "version": "",
         "defaultScope": "greeters.development",
         "mainFile": "index.ts",
-        "rootDir": "development/envs/node-env"
+        "rootDir": "development/envs/node-env",
+        "config": {
+            "teambit.envs/env": {},
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
     },
     "envs/react-env": {
         "scope": "",
         "version": "",
         "defaultScope": "greeters.development",
         "mainFile": "index.ts",
-        "rootDir": "development/envs/react-env"
+        "rootDir": "development/envs/react-env",
+        "config": {
+            "teambit.envs/env": {},
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
     },
     "hooks/use-hello-world": {
         "scope": "",

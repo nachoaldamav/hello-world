@@ -6,7 +6,7 @@ const { jestConfig } = require('@teambit/react.react-env');
 const {
   generateNodeModulesPattern,
 } = require('@teambit/dependencies.modules.packages-excluder');
-const packagesToExclude = ['a-package-to-exclude'];
+const packagesToExclude = ['node-fetch', 'fetch-mock-jest'];
 
 /**
  * by default, jest excludes all node_modules from the transform (compilation) process.

@@ -1,3 +1,7 @@
+/**
+ * this file is copied into your components' build output.
+ */
+
 declare module '*.module.css' {
   const classes: { readonly [key: string]: string };
   export default classes;
