@@ -12,51 +12,79 @@
     "api-routes/hello": {
         "scope": "",
         "version": "",
-        "defaultScope": "hello-world",
         "mainFile": "index.ts",
-        "rootDir": "api/src/routes/hello"
+        "rootDir": "api/src/routes/hello",
+        "config": {
+            "greeters.development/envs/node-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/node-env"
+            }
+        }
     },
     "envs/node-env": {
         "scope": "",
         "version": "",
-        "defaultScope": "development",
+        "defaultScope": "greeters.development",
         "mainFile": "index.ts",
         "rootDir": "development/envs/node-env"
     },
     "envs/react-env": {
         "scope": "",
         "version": "",
-        "defaultScope": "development",
+        "defaultScope": "greeters.development",
         "mainFile": "index.ts",
         "rootDir": "development/envs/react-env"
     },
     "hooks/use-hello-world": {
         "scope": "",
         "version": "",
-        "defaultScope": "hello-world",
         "mainFile": "index.ts",
-        "rootDir": "web/src/hooks/use-hello-world"
+        "rootDir": "web/src/hooks/use-hello-world",
+        "config": {
+            "greeters.development/envs/react-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/react-env"
+            }
+        }
     },
     "pages/landing-page": {
         "scope": "",
         "version": "",
-        "defaultScope": "hello-world",
+        "defaultScope": "greeters.hello-world",
         "mainFile": "index.ts",
-        "rootDir": "web/src/pages/landing-page"
+        "rootDir": "web/src/pages/landing-page",
+        "config": {
+            "greeters.development/envs/react-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/react-env"
+            }
+        }
     },
     "ui/button": {
         "scope": "",
         "version": "",
-        "defaultScope": "design",
+        "defaultScope": "greeters.design",
         "mainFile": "index.ts",
-        "rootDir": "web/src/ui/button"
+        "rootDir": "web/src/ui/button",
+        "config": {
+            "greeters.development/envs/react-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/react-env"
+            }
+        }
     },
     "ui/heading": {
         "scope": "",
         "version": "",
-        "defaultScope": "design",
+        "defaultScope": "greeters.design",
         "mainFile": "index.ts",
-        "rootDir": "web/src/ui/heading"
+        "rootDir": "web/src/ui/heading",
+        "config": {
+            "greeters.development/envs/react-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/react-env"
+            }
+        }
     },
     "$schema-version": "15.0.0"
 }
