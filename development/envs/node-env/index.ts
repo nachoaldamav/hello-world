@@ -1,4 +1,4 @@
-import { NodeEnvEnv } from './nodeEnv-env.bit-env';
+import { MyNodeEnv } from './node-env.bit-env';
 
-export { NodeEnvEnv };
-export default NodeEnvEnv;
+export { MyNodeEnv };
+export default MyNodeEnv;

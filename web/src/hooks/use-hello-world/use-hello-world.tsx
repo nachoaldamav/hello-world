@@ -22,8 +22,8 @@ export const useHelloWorld = (): [HelloWorldState, () => Promise<void>] => {
         throw new Error('Failed to load hello world');
       }
 
-      const data = await response.text();
-      setData(data);
+      const res = await response.text();
+      setData(res);
       setLoading(false);
     } catch (e) {
       setError(e as Error);

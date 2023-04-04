@@ -8,5 +8,5 @@ export type ButtonProps = {
 } & HTMLAttributes<HTMLButtonElement>
 
 export const Button = ({children, className, ...rest}: ButtonProps) => {
-    return <button className={cx("button", className)} {...rest}>{children}</button>
+    return <button type="button" className={cx("button", className)} {...rest}>{children}</button>
 }
