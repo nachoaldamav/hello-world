@@ -39,6 +39,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@babel/runtime": "^7.21.0",
         "@teambit/defender.eslint-linter": "^0.0.8",
         "@teambit/defender.jest-tester": "^0.0.8",
         "@teambit/defender.prettier-formatter": "^0.0.5",
@@ -52,11 +53,18 @@
         "@testing-library/react": "^14.0.0",
         "@testing-library/user-event": "^14.4.3",
         "fetch-mock-jest": "^1.5.1",
-        "node-fetch": "^3.3.1"
+        "node-fetch": "^3.3.1",
+        "react-router-dom": "^6.10.0"
       },
       "peerDependencies": {}
     },
     "linkCoreAspects": true
+  },
+  "teambit.generator/generator": {
+    "envs": [
+      "greeters.development/envs/react-env",
+      "greeters.development/envs/node-env"
+    ]
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your

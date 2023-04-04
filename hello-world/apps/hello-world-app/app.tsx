@@ -1,12 +1,11 @@
-import { Routes, Route } from 'react-router-dom';
-import { LandingPage } from './pages/landing-page';
 
-function App() {
+import { Routes, Route } from 'react-router-dom';
+import { LandingPage } from '@greeters/hello-world.pages.landing-page';
+
+export function HelloWorldApp() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
     </Routes>
-  )
+  );
 }
-
-export default App;

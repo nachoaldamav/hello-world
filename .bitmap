@@ -15,6 +15,18 @@
         "mainFile": "index.ts",
         "rootDir": "api/src/routes/hello"
     },
+    "apps/hello-world-app": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "hello-world/apps/hello-world-app",
+        "config": {
+            "teambit.harmony/aspect": {},
+            "teambit.envs/envs": {
+                "env": "teambit.harmony/aspect"
+            }
+        }
+    },
     "envs/node-env": {
         "scope": "greeters.development",
         "version": "0.0.1",
