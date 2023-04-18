@@ -9,11 +9,17 @@
  */
 
 {
-    "api-routes/hello": {
-        "scope": "greeters.hello-world",
-        "version": "0.0.1",
+    "apps/hello-world-api": {
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "api/src/routes/hello"
+        "rootDir": "apps/hello-world-api",
+        "config": {
+            "greeters.development/envs/node-env@0.0.1": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/node-env"
+            }
+        }
     },
     "apps/hello-world-app": {
         "scope": "",
