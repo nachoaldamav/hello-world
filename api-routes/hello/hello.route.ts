@@ -1,6 +1,6 @@
-import type { Route } from './route';
+import type { Route } from '../../apps/hello-world-api/route';
 
-export function getMockRoute(): Route {
+export function getHelloRoute(): Route {
   return {
     method: 'get',
     route: '/hello',

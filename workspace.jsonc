@@ -95,6 +95,6 @@
       // "teambit.react/react": { }
     }
   },
-  "greeters.hello-world/apps/hello-world-app": {},
-  "greeters.hello-world/apps/hello-world-api": {}
+  "greeters.hello-world/apps/hello-world-api": {},
+  "greeters.hello-world/apps/hello-world-app": {}
 }

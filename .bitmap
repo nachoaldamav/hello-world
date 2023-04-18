@@ -9,29 +9,29 @@
  */
 
 {
-    "apps/hello-world-api": {
+    "api-routes/hello": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-api",
+        "rootDir": "api-routes/hello",
         "config": {
-            "greeters.development/envs/node-env@0.0.1": {},
+            "greeters.development/envs/node-env": {},
             "teambit.envs/envs": {
                 "env": "greeters.development/envs/node-env"
             }
         }
     },
+    "apps/hello-world-api": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "apps/hello-world-api"
+    },
     "apps/hello-world-app": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-app",
-        "config": {
-            "teambit.harmony/aspect": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/aspect"
-            }
-        }
+        "rootDir": "apps/hello-world-app"
     },
     "envs/node-env": {
         "scope": "greeters.development",
