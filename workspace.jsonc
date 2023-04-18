@@ -40,11 +40,12 @@
     "policy": {
       "dependencies": {
         "@babel/runtime": "^7.21.0",
+        "@mdx-js/react": "^2.3.0",
         "@teambit/defender.eslint-linter": "^0.0.8",
         "@teambit/defender.jest-tester": "^0.0.8",
         "@teambit/defender.prettier-formatter": "^0.0.5",
         "@teambit/dependencies.modules.packages-excluder": "^0.0.70",
-        "@teambit/mdx.ui.mdx-scope-context": "0.0.496",
+        "@teambit/mdx.ui.mdx-scope-context": "^0.0.498",
         "@teambit/node.node": "^0.0.22",
         "@teambit/preview.react-preview": "^0.0.28",
         "@teambit/react.mounter": "^0.0.8",
@@ -52,11 +53,19 @@
         "@teambit/typescript.typescript-compiler": "^0.0.7",
         "@testing-library/react": "^14.0.0",
         "@testing-library/user-event": "^14.4.3",
+        "@types/jest": "^29.5.0",
+        "@types/node": "^18.15.11",
+        "classnames": "^2.3.2",
         "fetch-mock-jest": "^1.5.1",
-        "node-fetch": "^3.3.1",
-        "react-router-dom": "^6.10.0"
+        "graphql": "^16.6.0",
+        "node-fetch": "^3.3.1"
       },
-      "peerDependencies": {}
+      "peerDependencies": {
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0",
+        "react-router-dom": "^6.0.0",
+        "webpack": "5.51.1"
+      }
     },
     "linkCoreAspects": true
   },
@@ -83,5 +92,6 @@
        **/
       // "teambit.react/react": { }
     }
-  }
+  },
+  "greeters.hello-world/apps/hello-world-app": {}
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import type { ReactNode, HTMLAttributes } from 'react';
 import cx from 'classnames';
 import './button.scss'

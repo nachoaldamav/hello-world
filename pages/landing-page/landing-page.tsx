@@ -1,3 +1,4 @@
+import React from 'react';
 import cx from 'classnames';
 import type { HTMLAttributes } from 'react';
 import { Button } from '@greeters/design.ui.button';

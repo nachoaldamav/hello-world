@@ -1,11 +1,11 @@
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
-import { HelloWorldAppApp } from './app';
+import { HelloWorldApp } from './app';
 
 export const HelloWorldAppBasic = () => {
   return (
     <MemoryRouter>
-      <HelloWorldAppApp />
+      <HelloWorldApp />
     </MemoryRouter>
   );
 };
