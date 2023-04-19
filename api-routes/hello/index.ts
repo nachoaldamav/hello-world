@@ -1,1 +1,1 @@
-export { getHelloRoute } from './hello.route';
+export { getHelloRoute } from './hello.route.js';

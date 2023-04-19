@@ -37,7 +37,13 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-app"
+        "rootDir": "apps/hello-world-app",
+        "config": {
+            "greeters.development/envs/react-env": {},
+            "teambit.envs/envs": {
+                "env": "greeters.development/envs/react-env"
+            }
+        }
     },
     "envs/node-env": {
         "scope": "greeters.development",
@@ -60,13 +66,13 @@
     },
     "pages/landing-page": {
         "scope": "greeters.hello-world",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "pages/landing-page"
     },
     "ui/button": {
         "scope": "greeters.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/button",
         "config": {
@@ -78,7 +84,7 @@
     },
     "ui/heading": {
         "scope": "greeters.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/heading"
     },
