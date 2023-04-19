@@ -40,6 +40,7 @@
     "policy": {
       "dependencies": {
         "@babel/runtime": "^7.21.0",
+        "@greeters/development.deployers.aws-lightsail-deployer": "^0.0.3",
         "@mdx-js/react": "^2.3.0",
         "@teambit/defender.eslint-linter": "^0.0.8",
         "@teambit/defender.jest-tester": "^0.0.8",

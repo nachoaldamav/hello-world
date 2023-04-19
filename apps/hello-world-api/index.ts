@@ -1,1 +1,1 @@
-export type { Route } from './route';
+export type { expressApp } from './hello-world-api.app-root';

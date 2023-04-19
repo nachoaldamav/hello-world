@@ -1,4 +1,4 @@
-import type { Route } from '../../apps/hello-world-api/route';
+import type { Route } from './route';
 
 export function getHelloRoute(): Route {
   return {
