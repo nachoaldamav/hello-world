@@ -4,8 +4,7 @@ const lightsailOptions = {
   host: '13.228.159.236',
   username: 'bitnami',
   cwd: './api',
-  privateKey: '-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA5JQ0ZXZ5R59AhD6pkrwkXEiPJh1gs7V/DctA+1rpNTsqvIq3wlKU6fX08On0MWzC0gHTsugINxzVReHsGROaCeKK0jz9yZmaYrFot7aoX37YRN0qMM6HmFJQEU3VyovA+liQTolG4FwaOgxJIu+3h0VM99GCPN0NCYW+lwiz7LhKOQGdoZW+FeGqjibX386V/zaU6NuqP59EI8b8GZEQTpTI0dGH8kRJegiyTsSRkjVlk/tq+5uknJzMaD7JzOtOH5gFVmvLfSd4PwhKeVRx2IwvUkRTLh79p6w2AoigFc1um7KrLfg9yj7RvG5C8TnxzS7vqwpDn7TghSAlnmw2hwIDAQABAoIBAQDVevVUrcmncry2xi9ps/3hkoLffiCKtr/rCiGun8GezZuka4okGyypNeWF+3rtjj6GFN67AKprjqpBkjcHVJ9RDBvLLtt4JdVix36d1iJ6zeT+q/BzlPBe+sF858z8VnntVjmwn9VqRZrZDBBiaLBnzfmMmkegwHMkqZzPQnmIYvHBGhNIAG7NMq+VERIIAPvGX9aMPcOecdVeAoON1xH69L2VzXIwd7o8XSn6YHQAxTVa858P7jDIBMWFVTiwvkyaiCRuQOQ8OKrnjFTbZ94B9rVXj+N1MkuI1xxK+PHd0o0XG0PhIZwbwzpWzdD2CQOmmOud1VHX6mhvx2U5Lo4BAoGBAP5zblvYf/9cKYAGQTAYEY8xCRvl3yiWDsglier/F64w6aovleIAr/mOi+2AjUVMUWwBiNE253h5lgNcO8Bd7f+pnYx6SeNTDlQl9cGU6HF3y6nepj8fSe5ig9Rv/ymgOW+z2HEgerMd0IsS/AY3Y9Ot+GuPwQgsyM663N8QLbNnAoGBAOX4c41lSureYo5otb6yE84gm28fvl9ZPQUcjbK2UYAFNvqWRnSqkeRL4yD9Jlc1jqCJAgisH1c9iWwWTlRTJ76UrK7FKCdIDr0br3nFBFZlJiQoeogTKHAoANgCzkTgkE2P/GBpnYpqt/7h5F6BDAwwbPIYAMsaVistRUu0vY/hAoGBAIFI/1LVbzu9hSySgP7By/I4lQtCwh9qFzqksC3hzRNpsOAS65H4jXE8d2aGgcErJNe+89hxkCzLgmhUrdtxHmNfuDhPTkmdwtMIspTYZz54Athd05SQ/kyMa7U97qUkzuottBTOzulBhduUGs/BxwwgAfANC6RutN0tXtpL6xyTAoGACZDKDamW8ioJ426LkMELfdlxXa/uVTz7AslrQ3G99htBbC7wA05M/zgA3JBrFdmOczL/uKigLRrMKojK/UrwLkc035gn0Wp34nnSVLhTM9zFN1/PqPVTC0c+sb18IvVMS02f68q42NcTjDCNNTkc7SzeeztwXQJdbzJU3Y9JC0ECgYBWp1SbcmCLNI+AOYHqalRMQGTXiUeLibt0kNX+fci4Fi8KXtVC9LLp1S0uETHDVaenjcoPw4LnmuaVkWZduYzjN0UVVejIZPRipH4oHl0FrhHGLQniYEh3uNc1LSpWJEhpWBhAJb6FoEoLMDnwENKN2AyIZwmoo5XcbyWN4EBzrg==\n-----END RSA PRIVATE KEY-----',
-  password: 'WqnmkMN8JvVZ',
+  privateKey: 'key',
   port: 22,
   runCommand: 'npm install && npm run build --if-present && forever stopall && nohup forever api/index.js  &> /dev/null &',
 } as SshOptions;
