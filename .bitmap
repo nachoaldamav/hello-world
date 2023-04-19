@@ -37,13 +37,7 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-app",
-        "config": {
-            "greeters.development/envs/node-env": {},
-            "teambit.envs/envs": {
-                "env": "greeters.development/envs/node-env"
-            }
-        }
+        "rootDir": "apps/hello-world-app"
     },
     "envs/node-env": {
         "scope": "greeters.development",

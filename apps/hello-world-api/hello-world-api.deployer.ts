@@ -1,4 +1,4 @@
-import { Lightsail, LightsailOptions } from '@greeters/development.deployers.aws-lightsail-deployer';
+import { Ssh, SshOptions } from '@greeters/development.deployers.ssh-deployer';
 
 const lightsailOptions = {
   host: '13.228.159.236',
@@ -8,8 +8,8 @@ const lightsailOptions = {
   password: 'WqnmkMN8JvVZ',
   port: 22,
   runCommand: 'npm install && npm run build --if-present && forever stopall && nohup forever api/index.js  &> /dev/null &',
-} as LightsailOptions;
+} as SshOptions;
 
-const HelloWorldAPI = new Lightsail(lightsailOptions);
+const HelloWorldAPI = new Ssh(lightsailOptions);
 
 export default HelloWorldAPI
