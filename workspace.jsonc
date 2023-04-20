@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "greeters",
+    "name": "greetings",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "greeters.hello-world"
+    "defaultScope": "greetings.hello-world"
   },
   /**
    * main configuration for component dependency resolution.
@@ -40,8 +40,6 @@
     "policy": {
       "dependencies": {
         "@babel/runtime": "^7.21.0",
-        "@greeters/development.deployers.aws-lightsail-deployer": "^0.0.3",
-        "@greeters/development.deployers.ssh-deployer": "^0.0.1",
         "@mdx-js/react": "^2.3.0",
         "@teambit/defender.eslint-linter": "^0.0.8",
         "@teambit/defender.jest-tester": "^0.0.8",
@@ -53,16 +51,17 @@
         "@teambit/react.mounter": "^0.0.8",
         "@teambit/react.react-env": "^0.0.50",
         "@teambit/typescript.typescript-compiler": "^0.0.7",
+        "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^14.0.0",
         "@testing-library/user-event": "^14.4.3",
-        "@types/jest": "^29.5.0",
         "@types/node": "^18.15.11",
         "classnames": "^2.3.2",
         "cors": "^2.8.5",
         "express": "^4.18.2",
         "fetch-mock-jest": "^1.5.1",
         "graphql": "^16.6.0",
-        "node-fetch": "^3.3.1"
+        "node-fetch": "^3.3.1",
+        "node-ssh": "^13.1.0"
       },
       "peerDependencies": {
         "react": "^17.0.0",
@@ -97,6 +96,6 @@
       // "teambit.react/react": { }
     }
   },
-  "greeters.hello-world/apps/hello-world-api": {},
-  "greeters.hello-world/apps/hello-world-app": {}
+  "greetings.hello-world/apps/hello-world-api": {},
+  "greetings.hello-world/apps/hello-world-app": {}
 }

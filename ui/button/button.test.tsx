@@ -10,5 +10,4 @@ describe('Button', () => {
     expect(button).toHaveClass(className);
     expect(button.textContent).toBe(buttonText);
   });
-
 });

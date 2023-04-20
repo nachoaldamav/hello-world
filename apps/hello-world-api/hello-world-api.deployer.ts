@@ -1,4 +1,4 @@
-import { Ssh, SshOptions } from '@greeters/development.deployers.ssh-deployer';
+import { Ssh, SshOptions } from '@greetings/development.deployers.ssh-deployer';
 
 const config: SshOptions = {
   host: 'xxxx',

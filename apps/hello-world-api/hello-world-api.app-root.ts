@@ -1,6 +1,6 @@
 import Application from 'express';
 import cors from 'cors';
-import { getHelloRoute } from '@greeters/hello-world.api-routes.hello';
+import { getHelloRoute } from '@greetings/hello-world.api-routes.hello';
 import { getPort } from './get-port.js';
 
 function registerRoutes(app: Application.Application) {

@@ -1,9 +1,9 @@
 import React from 'react';
 import cx from 'classnames';
 import type { HTMLAttributes } from 'react';
-import { Button } from '@greeters/design.ui.button';
-import { Heading } from '@greeters/design.ui.heading';
-import { useHelloWorld } from '@greeters/hello-world.hooks.use-hello-world';
+import { Button } from '@greetings/design.ui.button';
+import { Heading } from '@greetings/design.ui.heading';
+import { useHelloWorld } from '@greetings/hello-world.hooks.use-hello-world';
 import './landing-page.scss'
 
 export type LandingPageProps = {
