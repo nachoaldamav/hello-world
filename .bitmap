@@ -11,39 +11,21 @@
 {
     "api-routes/hello": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "api-routes/hello",
-        "config": {
-            "greeters.development/envs/node-env": {},
-            "teambit.envs/envs": {
-                "env": "greeters.development/envs/node-env"
-            }
-        }
+        "rootDir": "api-routes/hello"
     },
     "apps/hello-world-api": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-api",
-        "config": {
-            "greeters.development/envs/node-env": {},
-            "teambit.envs/envs": {
-                "env": "greeters.development/envs/node-env"
-            }
-        }
+        "rootDir": "apps/hello-world-api"
     },
     "apps/hello-world-app": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "apps/hello-world-app",
-        "config": {
-            "greeters.development/envs/react-env": {},
-            "teambit.envs/envs": {
-                "env": "greeters.development/envs/react-env"
-            }
-        }
+        "rootDir": "apps/hello-world-app"
     },
     "envs/node-env": {
         "scope": "greeters.development",
@@ -54,37 +36,31 @@
     },
     "envs/react-env": {
         "scope": "greeters.development",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "development/envs/react-env"
     },
     "hooks/use-hello-world": {
         "scope": "greeters.hello-world",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "hooks/use-hello-world"
     },
     "pages/landing-page": {
         "scope": "greeters.hello-world",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "pages/landing-page"
     },
     "ui/button": {
         "scope": "greeters.design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
-        "rootDir": "ui/button",
-        "config": {
-            "greeters.development/envs/react-env": {},
-            "teambit.envs/envs": {
-                "env": "greeters.development/envs/react-env"
-            }
-        }
+        "rootDir": "ui/button"
     },
     "ui/heading": {
         "scope": "greeters.design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "ui/heading"
     },
