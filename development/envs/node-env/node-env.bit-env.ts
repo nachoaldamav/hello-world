@@ -100,4 +100,4 @@ export class MyNodeEnv extends NodeEnv {
   }
 }
 
-export default new NodeEnv();
+export default new MyNodeEnv();
