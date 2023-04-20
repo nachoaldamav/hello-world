@@ -17,13 +17,13 @@
     },
     "apps/hello-world-api": {
         "scope": "greetings.hello-world",
-        "version": "0.0.1",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "apps/hello-world-api"
     },
     "apps/hello-world-app": {
         "scope": "greetings.hello-world",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "apps/hello-world-app"
     },
@@ -53,13 +53,13 @@
     },
     "pages/landing-page": {
         "scope": "greetings.hello-world",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "pages/landing-page"
     },
     "ui/button": {
         "scope": "greetings.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/button"
     },
